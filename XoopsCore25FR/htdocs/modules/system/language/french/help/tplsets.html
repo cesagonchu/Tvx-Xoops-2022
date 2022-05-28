@@ -1,0 +1,42 @@
+<div id="help-template" class="outer">
+    <h1 class="head">Aide : Modèles</h1>
+
+    <h4 class="odd">Description</h4>
+
+    <p class="even">
+        XOOPS permet une certaine séparation entre la présentation réelle du site (la “<em>skin</em>” ou interface utilisateur) et le code qui fonctionne en arrière-plan. La première est gérée par un mécanisme sophistiqué basé sur des thèmes graphiques. Un thème peut inclure, dans sa forme de base, les modèles HTML essentiels
+        qui définissent l'interface visuelle du site, ainsi que les feuilles de style et les images nécessaires pour compléter cette interface visuelle. Les thèmes peuvent être changés dans l'interface d'administration, de sorte que pour modifier l'apparence d'un site XOOPS, il suffit de changer la valeur
+        d'un sélecteur et de cliquer sur  « Accepter ». XOOPS offre également aux administrateurs de sites la possibilité de laisser les utilisateurs choisir parmi certains thèmes disponibles.<br><br>
+
+        D'une manière générale, un <strong><em>thème</em></strong> est le cadre visuel de haut niveau d'un site : le thème définit, par exemple, la disposition générale du site ; en revanche, il ne définit généralement pas la répartition spécifique du contenu à l'intérieur d'un bloc. Ceci est géré par une entité
+        différente appelée  <em><strong>ensemble de modèles</strong></em>. Un ensemble de modèles<em> </em>est un assortiment de modèles HTML qui définissent la présentation du contenu dans tous les blocs qui forment un site internet XOOPS. Si nous voulons une métaphore plus claire, nous pourrions dire que le thème est comme
+        l'architecte d'une maison, tandis que le jeu de modèles est comme le décorateur d'intérieur. Le premier fixe les murs et définit la distribution générale, mais c'est le second qui est chargé d'“<em>habiller</em>” ces murs.<br><br>
+
+        Si le thème actif est simple et ne comprend qu'un fichier de thème, des fichiers CSS et quelques images, XOOPS utilise l'ensemble des modèles par défaut pour définir la présentation des blocs. Cependant, certains thèmes complexes sont suffisamment sophistiqués pour inclure leur propre ensemble de modèles. Dans ce cas, l'administrateur
+        du site doit utiliser l'interface administrative pour définir à la fois le thème et l'ensemble des modèles. <br><br>
+
+        Comment la <em>magie</em> du thème s'accomplit-elle ? Autrement dit, comment les modèles HTML peuvent-ils inclure du contenu dynamique ? Cela ne se fait pas avec des miroirs et de la fumée, mais avec un moteur de modèle intelligent appelé
+        <strong><a rel="external" href="http://www.smarty.net/">Smarty</a></strong> qui rend la fonction de ce qui s'appelait auparavant
+        <em><strong>interpolation de variables</strong></em>. Exprimé de manière simple, on pourrait dire que le système XOOPS utilise des fichiers PHP pour contenir la logique des modules (accès à la base de données, allocation de variables, gestion des droits...), des fichiers HTML dans lesquels sont insérées des variables Smarty pour gérer
+        l'interface visuelle proprement dite, et le moteur Smarty pour insérer des valeurs et des chaînes de caractères à des endroits spécifiques du HTML qui construit les pages vues par l'utilisateur final. En somme, ce que cela signifie pour vous peut être facilement résumé : grâce à son système de thématisation, XOOPS permet aux concepteurs de sites de construire
+        des sites plus intéressants et visuellement étonnants sans se soucier de ce qui se passe sous le capot.
+    </p>
+    <h4 class="odd">Clonage et chargement des ensembles de modèles</h4>
+
+    <p class="even">
+        Si vous souhaitez créer un ensemble de modèles personnalisés, vous pouvez faire une copie de l'ensemble par défaut (ou de tout autre ensemble) en sélectionnant le lien ‘<em>cloner</em>’ (vous serez invité à donner un nom au nouvel ensemble). Contrairement à la version par défaut, les autres ensembles de modèles peuvent être modifiés librement. Vous pouvez également enregistrer une copie
+        d'un ensemble de modèles sur le disque en sélectionnant le lien ‘<em>télécharger</em>’, ou le supprimer avec le lien ‘<em>supprimer</em>’. Vous pouvez aussi parfois voir un lien supplémentaire ‘<em>Générer</em>’ à côté des nouveaux modules pour lesquels des modèles n'ont pas encore été créés.
+    </p>
+
+    <h4 class="odd">Modification des modèles</h4>
+
+    <p class="even">
+        Vous pouvez voir une liste complète des modèles disponibles en parcourant l'arborescence du répertoire. Lorsque vous sélectionnez un modèle, XOOPS l'ouvre dans un éditeur où vous pouvez le modifier. <br><br>
+
+        Lorsque vous modifiez des modèles, vous devez activer une préférence qui met automatiquement à jour les fichiers .tpl des modèles de modules s'il existe des fichiers plus récents dans le répertoire themes/votre thème/templates pour le thème actuel (Module système -> Préférences -> Paramètres généraux -> Mettre à jour les fichiers .tpl 
+        des modèles de modules, à partir du répertoire themes/votre thème/templates ? -> "Oui"). Cette option doit être désactivée lorsque le site devient public..<br><br>
+        Si vous abîmez accidentellement un modèle, n'oubliez pas que vous pouvez récupérer une ‘<em>bonne</em>’ copie à partir de l'ensemble des modèles par défaut. Si vous travaillez avec des modèles non standard, il peut être judicieux d'enregistrer une copie sur le disque avant de commencer à les modifier.
+
+    </p>
+
+</div>
