@@ -27,19 +27,19 @@ Il est possible de le redistribuer à condition de respecter les termes de distr
 <li>Installez correctement le serveur WWW, PHP et le serveur de base de données.</li>
 <li>Préparez une base de données pour votre site XOOPS</li>
 <li>Préparez un compte utilisateur et accordez lui des droits d\'administrateur (lecture, écriture et exécution).</li>
-<li>Rendre ces répertoires et fichiers accessibles en écriture: %s</li>
-<li>Pour des raisons de sécurité, nous vous invitons à déplacer en dehors <a href="http://phpsec.org/projects/guide/3.html" rel="external">de la racine de votre site</a>, et de changer le nom des répertoires suivants : %s</li>
-<li>Créez (si il n\'existe pas) et ouvrez en écriture le répertoire suivant: %s</li>
+<li>Rendre ces répertoires et fichiers accessibles en écriture : %s</li>
+<li>Pour des raisons de sécurité, nous vous invitons à déplacer en dehors <a href="http://phpsec.org/projects/guide/3.html" rel="external">de la racine de votre site</a> et à changer le nom des répertoires suivants : %s</li>
+<li>Créez (si ils n\'existent pas) et ouvrez en écriture les répertoires suivants : %s</li>
 <li>Veillez à autoriser l\'écriture des cookies et l\'exécution du Javascript dans votre navigateur internet.</li>
 </ol>
 <h3>Notes spéciales</h3>
 <p>Certaines combinaisons de logiciels de systèmes spécifiques peuvent nécessiter des configurations supplémentaires pour fonctionner
- avec XOOPS. Si l\'un de ces sujets s\'applique à votre environnement, veuillez consulter la version complète
+ avec XOOPS. Si l\'un de ces sujets s\'applique à votre environnement, veuillez consulter la version complète du
  <a href="https://xoops.gitbook.io/xoops-install-upgrade/" rel="external">Manuel 
  d\'installation de Xoops</a> pour plus d\'informations.
 </p>
 <p>MySQL 8.0 n\'est pas pris en charge par toutes les versions de PHP. Même dans les versions supportées, des problèmes avec
- la bibliothèque PHP <em>mysqlnd</em> peut nécessiter le plugin d\' <em>authentification par défaut</em> du serveur MySQL.
+ la bibliothèque PHP <em>mysqlnd</em> peut nécessiter le plugin d\'<em>authentification par défaut</em> du serveur MySQL 
  à définir sur <em>mysql_native_password</em> pour fonctionner correctement.
 </p>
 <p>Les systèmes compatibles SELinux (tels que CentOS et RHEL) peuvent nécessiter des modifications du contexte de sécurité
