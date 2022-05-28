@@ -1,5 +1,5 @@
 # Tvx-Xoops-2022
-Traduction française du CMS Xoops 2.5.11
+Traduction française pour le CMS XOOPS
 
 Site offciel américain : https://www.xoops.org/
 
