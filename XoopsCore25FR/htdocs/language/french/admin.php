@@ -20,3 +20,4 @@ define('_AD_WARNINGWRITEABLE', 'AVERTISSEMENT : Le fichier %s est accessible en 
 define('_AD_WARNINGNOTWRITEABLE', 'AVERTISSEMENT : Le dossier %s n\'est pas accessible en écriture par le serveur. <br> Veuillez changer les permissions de ce dossier. <br> Pour Unix (777), pour Win32 (décocher lecture seule)');
 define('_AD_WARNINGXOOPSLIBINSIDE', 'AVERTISSEMENT : Le dossier %s est à la racine de votre site ! <br> Pour des raisons de sécurité, il est fortement recommandé de le déplacer à l\'extérieur de la racine de votre site.');
 define('_AD_WARNING_OLD_PHP', 'AVERTISSEMENT : Envisagez de passer à une version plus récente de PHP. La version %s ou plus récente est recommandée et sera requise dans les futures versions XOOPS.');
+define('_AD_WARNING_NO_XML', 'L\'extension PHP XML est requise pour cette fonction.');
