@@ -34,7 +34,7 @@ define('CURRENT', 'Actuel');
 define('RECOMMENDED_EXTENSIONS_MSG', 'Ces extensions ne sont pas obligatoires pour un usage standard, mais peuvent être nécessaires pour utiliser
 quelques fonctions spécifiques (comme le multi-langage ou les flux RSS). Nous recommandons leur installation.');
 define('NONE', 'Aucun');
-define('SUCCESS', 'Réussite');
+define('SUCCESS', 'Ok');
 define('WARNING', 'Avertissement');
 define('FAILED', 'Échec');
 // Titles (main and pages)
