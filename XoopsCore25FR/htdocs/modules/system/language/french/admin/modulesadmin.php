@@ -166,3 +166,5 @@ define('_AM_SYSTEM_MODULES_CONFIRM_TIPS', '<ul>
 define('_AM_SYSTEM_MODULES_INSTALL_TESTDATA', 'Activer le contrôle des données');
 // 2.5.8
 define('_AM_SYSTEM_MODULES_INSTALL_MORE', 'Installer plus de modules');
+// 2.5.11
+define('_AM_SYSTEM_MODULES_INSTALL_THISMODULE', 'Administration de ce module');
